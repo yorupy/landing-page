@@ -133,3 +133,39 @@ nav ul a:active {
     align-self: flex-end;
     font-size: 18px;
 }
+
+.call {
+    padding: 100px 250px;
+}
+
+.call .card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call .card .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.call .card .content h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.call .card .content p {
+    color: #E5E7EB;
+}
+
+.call .card button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
