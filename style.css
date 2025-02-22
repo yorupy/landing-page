@@ -111,3 +111,25 @@ nav ul a:active {
     word-break: break-word;
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 100px 250px;
+    background-color: #E5E7EB;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: end;
+}
+
+.quote .author {
+    text-align: end;
+    align-self: flex-end;
+    font-size: 18px;
+}
