@@ -33,3 +33,42 @@ nav ul a:active {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.hero {
+    background-color: #1F2937;
+    padding: 50px 250px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+}
+
+.hero .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .info button {
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+}
